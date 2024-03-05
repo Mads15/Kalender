@@ -36,6 +36,10 @@ textarea {
   margin-top: 0px;
   resize: none;
   border: 0px solid #ddd;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 38;
+  font-style: normal;
 }
 
 .helligdag {
@@ -48,4 +52,12 @@ textarea {
  left: 50%;
  transform: translateX(-50%);
  text-align: center;
+ font-family: "Caveat", cursive;
+}
+
+.caveat-caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
