@@ -20,7 +20,7 @@ header {
  
  h1 {
  font-weight: bold;
- font-size: 70;
+ font-size: 4vh;
  }
  
  table {
@@ -31,7 +31,7 @@ header {
 td {
   border: 1px solid #ddd;
   padding: 0.4%;
-  text-align: LEFT;
+  text-align: left;
 }
 
 textarea {
@@ -44,6 +44,7 @@ textarea {
   font-optical-sizing: auto;
   font-weight: 38;
   font-style: normal;
+  font-size: 1.5vh;
 }
 
 .helligdag {
