@@ -36,6 +36,7 @@ td {
 
 textarea {
   width: 100%;
+  min-height: 9vh;
   box-sizing: border-box;
   margin-top: 0px;
   resize: none;
@@ -44,7 +45,21 @@ textarea {
   font-optical-sizing: auto;
   font-weight: 38;
   font-style: normal;
-  font-size: 1.5vh;
+  font-size: 1vh;
+}
+
+input {
+  width: 100%;
+  min-height: 9vh;
+  box-sizing: border-box;
+  margin-top: 0px;
+  resize: none;
+  border: 0px solid #ddd;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 38;
+  font-style: normal;
+  font-size: 1vh;
 }
 
 .helligdag {
