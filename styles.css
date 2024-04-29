@@ -18,21 +18,6 @@ header {
  font-weight: bold;
  font-size: 4vh;
  }
- 
- table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td {
-  border: 1px solid #ddd;
-  padding: 0.4%;
-  text-align: left;
-}
-
-.helligdag {
- color: red;
-}
 
 .overlay-text {
  color: var(--primaryColor);
@@ -53,11 +38,26 @@ td {
   background-color: beige;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 0.4%;
+}
+
+.helligdag {
+ color: red;
+}
+
 input {
   width: 100%;
   min-height: 9vh;
   box-sizing: border-box;
   margin-top: 0px;
+  word-wrap: break-word;
   resize: none;
   border: 0px solid #ddd;
   font-family: "Caveat", cursive;
